@@ -58,12 +58,12 @@ public class Main {
         Reader reader1 = new Reader("Fn Ln", 11, "Engineering",
                 "12.12.2012", "22311");
 
-        reader1.takeBook(reader1, book1, book3, book2);
-        reader1.takeBook("Fn Ln", 4);
-        reader1.takeBook("Fn Ln", "book1", "book23", "text");
+        Reader.takeBook(reader1, book1, book3, book2);
+        Reader.takeBook("Fn Ln", 4);
+        Reader.takeBook("Fn Ln", "book1", "book23", "text");
 
-        reader1.returnBook(reader1, book1, book3, book2);
-        reader1.returnBook("Fn Ln", 4);
-        reader1.returnBook("Fn Ln", "book1", "book23", "text");
+        Reader.returnBook(reader1, book1, book3, book2);
+        Reader.returnBook("Fn Ln", 4);
+        Reader.returnBook("Fn Ln", "book1", "book23", "text");
     }
 }

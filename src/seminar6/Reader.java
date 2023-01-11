@@ -46,7 +46,7 @@ public class Reader {
         return phoneNumber;
     }
 
-    public void takeBook(Reader reader, Book... books) {
+    public static void takeBook(Reader reader, Book... books) {
         for (Book book :
                 books) {
             System.out.printf("%s took %s(%s)", reader.getFullName(), book.getBookName(), book.getBookAuthor());
@@ -55,13 +55,13 @@ public class Reader {
         System.out.println();
     }
 
-    public void takeBook(String name, int quantity) {
+    public static void takeBook(String name, int quantity) {
         System.out.printf("%s took %s books", name, quantity);
         System.out.println();
         System.out.println();
     }
 
-    public void takeBook(String name, String... bookNames) {
+    public static void takeBook(String name, String... bookNames) {
         for (String book :
                 bookNames) {
             System.out.printf("%s took %s ", name, book);
@@ -70,7 +70,7 @@ public class Reader {
         System.out.println();
     }
 
-    public void returnBook(Reader reader, Book... books) {
+    public static void returnBook(Reader reader, Book... books) {
         for (Book book :
                 books) {
             System.out.printf("%s returned %s(%s)", reader.getFullName(), book.getBookName(), book.getBookAuthor());
@@ -79,13 +79,13 @@ public class Reader {
         System.out.println();
     }
 
-    public void returnBook(String name, int quantity) {
+    public static void returnBook(String name, int quantity) {
         System.out.printf("%s returned %s books", name, quantity);
         System.out.println();
         System.out.println();
     }
 
-    public void returnBook(String name, String... bookNames) {
+    public static void returnBook(String name, String... bookNames) {
         for (String book :
                 bookNames) {
             System.out.printf("%s returned %s ", name, book);
