@@ -1,8 +1,8 @@
 package Main;
 
 import seminar6.Book;
-import seminar6.Person;
-import seminar6.Phone;
+//import seminar6.Person;
+//import seminar6.Phone;
 import seminar6.Reader;
 
 public class Main {
